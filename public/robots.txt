@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ebd-team.github.io/airwire/sitemap.xml
