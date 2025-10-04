@@ -1,73 +1,51 @@
-# React + TypeScript + Vite
+# Airwire
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ENGLISH**
 
-Currently, two official plugins are available:
+Airwire is a lightweight platform for **data streaming** and **remote control**, focused on real‑time performance and reliability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
 
-## React Compiler
+Airwire enables fast peer‑to‑peer connections for **data transmission**, **telemetry**, and **video streaming**. It is designed for projects where low latency and secure communication are critical.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* ⚡ Low‑latency, high‑reliability data streaming
+* 🔗 Direct peer‑to‑peer connectivity
+* 🎥 Support for real‑time video streams
+* 🛠️ Simple setup and deployment
+* 🧪 Tested in real conditions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Use Cases
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* **Remote drone control**: Control UAVs with real‑time telemetry and live video feeds
+* **Digital signage & IoT**: Stream and manage content on remote displays and connected devices
+* **Industrial monitoring**: Real‑time feedback and command systems for sensors and automation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**УКРАЇНСЬКА**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Airwire — це легка платформа для **стрімінгу даних** та **віддаленого керування**, створена з акцентом на роботу в реальному часі та надійність.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Призначення
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Airwire забезпечує швидкі peer‑to‑peer з’єднання для **передачі даних**, **телеметрії** та **потокового відео**. Вона розроблена для проєктів, де критично важливі низька затримка та безпечна комунікація.
+
+## Можливості
+
+* ⚡ Низька затримка та висока надійність передачі даних
+* 🔗 Прямі peer‑to‑peer з’єднання
+* 🎥 Підтримка потокового відео в реальному часі
+* 🛠️ Просте налаштування та розгортання
+* 🧪 Перевірено у реальних умовах
+
+## Використання
+
+* **Віддалене керування дронами**: передача телеметрії та живого відео в реальному часі
+* **Цифрові вивіски та IoT**: стрімінг та управління контентом на віддалених екранах і пристроях
+* **Промисловий моніторинг**: зворотній зв’язок і команди в реальному часі для сенсорів і систем автоматизації
+
+---
+
+📧 Contact / Контакт: [ebd.team@outlook.com](mailto:ebd.team@outlook.com)
